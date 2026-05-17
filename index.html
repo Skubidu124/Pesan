@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pesan</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- AWAL -->
+<div class="card-awal" id="awal">
+  <div class="header">
+    <div class="avatar">D</div>
+    <div>
+      <div><b>Pesan Rahasia</b></div>
+      <small>Dibuat khusus untuk kamu</small>
+    </div>
+  </div>
+
+  <div class="info">
+    Ini mungkin agak random..
+  </div>
+
+  <div class="open-wrap">
+    <button class="main-btn" onclick="start()">💌 Buka Pesan</button>
+  </div>
+
+  <div class="actions">
+    <div class="action">💭</div>
+    <div class="action">💁</div>
+    <div class="action">👀</div>
+  </div>
+</div>
+
+<!-- SCENE -->
+<div class="scene" id="scene">
+
+  <!-- ✨ TAMBAHAN AESTHETIC (WAJIB) -->
+  <div class="sparkle"></div>
+<div class="clouds"></div>
+
+<div class="floating-love left">💖</div>
+<div class="floating-love right">💗</div>
+
+<div class="scene-header">
+  <div class="icon-love">💌</div>
+  <div class="title-text">HAHAHAHAHAHA 💖</div>
+</div>
+
+  <div class="card">
+    <div class="badge" id="badge"></div>
+    <div class="text" id="text"></div>
+  </div>
+
+  <div class="progress" id="progress"></div>
+
+  <!-- NAV -->
+  <div class="nav">
+    <div class="btn" onclick="copyText()">📋</div>
+    <div class="heart" onclick="loveClick()">💖</div>
+    <div class="btn" onclick="shareText()">📤</div>
+  </div>
+
+</div>
+
+<audio id="music" loop>
+  <source src="jawa.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
